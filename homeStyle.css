@@ -1,0 +1,367 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Montserrat-Regular;
+    font-weight: 100;
+    src: url('Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    font-weight: 100;
+    src: url('Montserrat-ExtraBold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Light;
+    font-weight: 100;
+    src: url('Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    font-weight: 100;
+    src: url('Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    font-weight: 100;
+    src: url('Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    font-weight: 100;
+    src: url('Montserrat-Medium.ttf');
+}
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    min-width: 1902px;
+    max-width: 1902px;
+}
+#shell {
+    width: 100%;
+}
+/*-----Menu-----*/
+.menu {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.menu ul {
+    text-align: right;
+    padding: 20px 200px 20px 10px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline;
+    font-family: Montserrat-SemiBold, sans-serif;
+    padding-left: 55px;
+}
+.menu ul a {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+.menu ul a:hover {
+    color: #FD2136;
+}
+#HopeLogo {
+    width: 100px;
+    float: left;
+    padding: 5px 0px 15px 200px;
+}
+/*-----Slider-----*/
+.slider {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    height: 1080px;
+    position: relative;
+}
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slide {
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: -1;
+}
+.slide:first-child {
+    display: block;
+}
+/*-----Buttons-----*/
+.slide-buttons {
+    text-align: center;
+    z-index: 10;
+    margin-top: -100px;
+}
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 300%;
+    line-height: 0.5em;
+}
+.slide-btn.active,.slide-btn:hover {
+    color: #FFC50F;
+    cursor: pointer;
+}
+/*-----Next & Previous-----*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 0 175px 0 175px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover.next:hover {
+    color: #FFC50F;
+}
+/*-----Lower Section-----*/
+.lowerSection {
+    height: 1900px;
+}
+.imageLeft {
+    float: left;
+    max-width: 50vw;
+}
+.PTC1 {
+    max-width: 50vw;
+    padding: 35px 200px 0px 52vw;
+}
+.lowerPT1 {
+    height: 950px;
+    width: 100%;
+}
+.lowerPT1 h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    color: #1E1E1E;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.lowerPT1 p {
+    font-family: Montserrat-Medium, sans-serif;
+    color: #1E1E1E;
+    font-size: 20px;    
+}
+.lowerPT2 {
+    height: 950px;
+    width: 100%;
+}
+.imageRight {
+    float: right;
+    max-width: 50vw;
+}
+.PT2C {
+    max-width: 50vw;
+    padding: 50px 40px 0 0;
+}
+.lowerPT2 h1 {
+    font-family: Montserrat-Bold, sans-serif;
+    color: #1E1E1E;
+    padding: 0 50vw 0px 200px; 
+    font-size: 45px;
+    margin-top: 0;
+}
+.lowerPT2 p {
+    font-family: Montserrat-Medium, sans-serif;
+    color: #1E1E1E;
+    font-size: 20px;
+    width: 700px;
+    padding: 0px 0px 0px 200px;
+}
+/*-----Icon Bar/Donate Bar-----*/
+.iconBar {
+    background-color: #FFC50F;
+    height: 320px;
+    width: 100%;
+}
+#iconBarIcons {
+    width: 900px;
+    margin: auto;
+}
+#iconBarTitles {
+    margin: auto;
+    width: 900px;
+}
+#iconBarTitles ul li {
+    text-transform: uppercase;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 20px;
+    display: inline;
+    text-decoration: none;
+}
+#iconBarTitles a {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+#iconBarTitles a:hover {
+    color: #FD2136
+}
+#titles1 {
+    padding-left: 20px;
+}
+#titles2 {
+    padding: 0px 150px 0px 140px;
+    text-align: center;
+}
+.iconSVG {
+    width: 150px;
+    padding: 75px 60px 10px 60px;
+}
+.donateBar {
+    background-color: #FD2136;
+    height: 115px;
+    width: 100%;
+}
+.donateButton {
+    margin: auto;
+    padding-top: 35px;
+    width: 300px;
+}
+.donateIcon {
+    font-family: Montserrat-Bold, sans-serif;
+    padding-top: 5px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.donateIcon:hover {
+    background-color: #FFC50F;
+}
+/*-----Footer-----*/
+.footer {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 255px;
+}
+.footerContent {
+    width: 100%;
+    height: 240px;
+}
+#logoWhite {
+    width: 100px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+#HopeAbout {
+    color: white;
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 15px;
+    padding-left: 200px;
+    width: 250px;
+}
+#CopyRight {
+    color: white;
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 12px;
+    padding-left: 200px;
+}
+.footerL {
+    width: 500px;
+    display: block;
+    float: left;
+}
+.footerRsection {
+    width: 200px;
+    padding-left: 500px;
+}
+.footerRsection h1 {
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.footerRsection ul li {
+    list-style: none;
+    padding-top: 5px;
+    margin-left: -38px;
+}
+.footerRsection ul li a {
+    color: white;
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footerHelp {
+    float: left;
+    width: 200px;
+    padding-top: 45px;
+    margin-left: 100px;
+}
+.footerContact {
+    float: left;
+    width: 200px;
+    margin-left: 350px;
+    margin-top: -140px;
+}
+.footerDonate {
+    float: left;
+    width: 200px;
+    margin-left: 550px;
+    margin-top: -140px;
+}
+.mapouter {
+    float: right;
+    margin-right: 75px;
+    margin-top: -175px;
+}
+.mapouter iframe {
+    border:0;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+      -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+  }
+/*-----Accordion-----*/
+.accordion{
+	background-color:white;
+	color:#1E1E1E;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	width:100px;
+}
+.accordion li{
+	padding:0px;
+	list-style-type:none;
+	font-family: "Lucida Grande", sans-serif;
+}
+.accordion-control{
+	background-color:indianred;
+	color:white;
+	font-size:24px;
+	font-family: "Lucida Grande", sans-serif;
+	display:block;
+	width:100%;
+	padding:5px;
+	cursor:pointer;	
+}
+.accordion-control:hover{
+	color:aquamarine;
+}
+.accordion-panel{
+	display:none;
+	border:1px solid #F2156D;
+}
+.accordion-panel p{
+	padding:10px;
+	text-align:left;
+	font-size:14px;
+}
