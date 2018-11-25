@@ -228,13 +228,28 @@ body {
     float: left;
     width: 200px;
     margin-left: 350px;
-    margin-top: -140px;
+    margin-top: -160px;
 }
 .footerDonate {
     float: left;
     width: 200px;
     margin-left: 550px;
-    margin-top: -140px;
+    margin-top: -160px;
+}
+.icon1 {
+    margin-left: -200px;
+}
+.icon2 {
+    margin-left: -150px;
+}
+.icon3 {
+    margin-left: -100px;
+}
+.footerDonate img {
+    width: 25px;
+    float: left;
+    display: inline;
+    margin-top: 15px;
 }
 .mapouter {
     float: right;
