@@ -152,7 +152,8 @@ body {
 .lowerPT1 p {
     font-family: Montserrat-Medium, sans-serif;
     color: #1E1E1E;
-    font-size: 20px;    
+    font-size: 20px;   
+    line-height: 40px; 
 }
 .lowerPT2 {
     height: 950px;
@@ -179,6 +180,7 @@ body {
     font-size: 20px;
     width: 700px;
     padding: 0px 0px 0px 200px;
+    line-height: 40px;
 }
 /*-----Icon Bar/Donate Bar-----*/
 .iconBar {
