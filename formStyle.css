@@ -310,3 +310,8 @@ body {
         -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
         -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
     }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
