@@ -159,12 +159,14 @@ body {
 }
 .lowerSection3 {
     width: 100%;
-    height: 600px;
+}
+.padding {
+    height: 50px;
 }
 .video {
     margin: auto;
     width: 840px;
-    padding-top: 50px;
+    padding-top: 100px;
 
 }
 /*-----Footer-----*/
@@ -266,9 +268,6 @@ body {
       -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
       -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
   }
-.lowerSection2a {
-    height: 200px;
-}
 .readmorebox {
     width: 100%;
 }
@@ -286,6 +285,7 @@ body {
 .box1 {
     float: left;
     margin-right: 50px;
+    padding-bottom: 50px;
 }
 .box2 {
     float: left;
@@ -318,4 +318,5 @@ body {
     font-family: Montserrat-Regular, sans-serif;
     color:#1E1E1E;
     font-size:15px;
+    cursor: pointer;
 }

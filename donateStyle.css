@@ -125,6 +125,12 @@ body {
 }
 .lower2 {
     width: 100%;
+    background-color: #FD2136;
+}
+.color {
+    width: 100%;
+    height: 20px;
+    background-color: #fd2136;
 }
 .donateIcon {
     width: 60px;
@@ -183,9 +189,9 @@ body {
     display: inline;
 }
 .lowerButtons2 form {
-    font-family: Montserrat-Medium, sans-serif;
+    font-family: Montserrat-SemiBold, sans-serif;
     color: #1E1E1E;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -227,7 +233,7 @@ body {
 }
 .boxL {
     width: 375px;
-    height: 400px;
+    height: 275px;
     border-style: solid;
     border-radius: 10px;
     border-color: #1E1E1E;
@@ -237,7 +243,7 @@ body {
 }
 .boxM {
     width: 375px;
-    height: 400px;
+    height: 275px;
     border-style: solid;
     border-radius: 10px;
     border-color: #1E1E1E;
@@ -262,7 +268,7 @@ body {
 }
 .boxR {
     width: 375px;
-    height: 400px;
+    height: 275px;
     border-style: solid;
     border-radius: 10px;
     border-color: #1E1E1E;
@@ -274,7 +280,7 @@ body {
     float: left;
     position: absolute;
     margin-left: -95px;
-    margin-top: 300px;
+    margin-top: 180px;
     height: 200px;
 }
 .img1a {
@@ -295,14 +301,14 @@ body {
     float: left;
     position: absolute;
     margin-left: 150px;
-    margin-top: 300px;
+    margin-top: 180px;
     height: 200px;
 }
 .img2 {
     float: left;
     position: absolute;
     margin-left: 150px;
-    margin-top: 300px;
+    margin-top: 180px;
     height: 200px;
 }
 .boxOuter2 {
@@ -450,7 +456,7 @@ body {
     margin:auto;
     padding:0px;
     overflow:auto;
-    width:200px;
+    width:300px;
     border-radius: 5px;
 }
 .accordionH1 {
